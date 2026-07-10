@@ -1,0 +1,59 @@
+#home-body{
+    text-align: center;
+}
+#home-heading{
+    background-color: beige;
+    height: 2em;
+    line-height: 2em;
+}
+#home-heading2{
+    margin: 55px;
+    font-size: larger;
+}
+#home-info{
+    font-style: italic;
+    font-size: large;
+    margin-top: 50px;
+}
+#home-start{
+    margin-top: 5rem;
+}
+#dash-body{
+    display: flex;
+    justify-content: center;
+}
+.dash-heading{
+    background-color:bisque;
+
+}
+.dash-main{
+    height: 600px;
+    width: 800px;
+    text-align: center;
+    background-color:beige;
+}
+.dash-enter{
+    display: flex;
+    padding-left: 6rem;
+    font-size: larger;
+}
+.dash-amount{
+    /* display: flex; */
+    justify-content: center;
+    padding: 5px;
+    width: 500px;
+    font-size:20px;
+    border-radius: 30px;
+}
+.from-to{
+    display: flex;
+    font-size: larger;
+    gap: 30rem;
+
+}
+.dash-from{
+    padding-left: 5rem;
+}
+.dash-to{
+    
+}
