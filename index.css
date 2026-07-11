@@ -24,6 +24,10 @@
 }
 .dash-heading{
     background-color:bisque;
+    font-size: larger;
+    font-weight: bolder;
+    height: 2rem;
+    line-height: 2rem;
 
 }
 .dash-main{
@@ -47,13 +51,56 @@
 }
 .from-to{
     display: flex;
+    justify-content: space-between;
+    /* gap: 8rem; */
+    /* flex-direction: column; */
+    gap: 5rem;
+}
+.from-flag{
+    display: flex;
+    padding-left: 2rem;
+}
+.to-flag{
+    display: flex;
+    padding-right: 2rem;
+}
+.convert-btn{
+    margin-top: 3.5rem;
+    padding: 1rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
     font-size: larger;
-    gap: 30rem;
+    background-color: aquamarine;
+    border-radius: 40px;
+}
+.dash-convo{
+    margin-top: 2rem;
+    font-size: larger;
+    font-weight: 500;
+}
+.dash-value{
+    /* display: flex; */
+    font-size:larger;
+    border-radius: 20px;
+    /* margin-top: 1rem; */
+    padding: 20px 10px;
+    height: 3rem;
+    line-height: 3rem;
+    background-color: aliceblue;
+    display:inline-block
+}
+.graph{
+    background-color: bisque;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    height: 200px;
+    line-height: 200px;
+    display: inline-block;
 
+    /* justify-content: center; */
 }
-.dash-from{
-    padding-left: 5rem;
-}
-.dash-to{
-    
+.toggle-btn{
+    /* display: flex; */
+    justify-content: flex-end;
+    height: 1rem;
 }

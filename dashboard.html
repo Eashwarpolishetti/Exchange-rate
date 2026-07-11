@@ -9,11 +9,42 @@
 <body id="dash-body">
     <div class="dash-main">
         <h3 class="dash-heading">CC </h3>
+
         <p class="dash-enter">enter the value</p>
         <input class="dash-amount" placeholder="Amount">
         <div class="from-to">
-            <p class="dash-from">From</p>
-            <p class="dash.to">To</p>
+            <div class="p-from">
+                <p class="dash-from">From</p>
+            
+                <div class="from-flag">
+                    <img src="https://flagsapi.com/US/flat/64.png">
+                    <select name="from-country">
+                        <option value="usd">usd</option>
+                        <option value="india">india</option>
+                    </select>
+                </div>
+            </div>
+            <div class="p-to">
+                <p class="dash-to">To</p>
+            
+                <div class="to-flag">
+                    <img src="https://flagsapi.com/IN/flat/64.png">
+                    <select name="to-country">
+                        <option value="mumbai">mumbai</option>
+                        <option value="india">india</option>
+                 </select>
+                </div>
+            </div>
+        </div>
+        <button class="convert-btn">convert</button>
+        <div class="conversion">
+            <p class="dash-convo">After Conversion</p>
+            <p class="dash-value">the value of the conversion is </p>
+        </div>.
+        <div class="graph">
+            <div class="graph-box">
+                <canvas class="inside-graph"></canvas>
+            </div>
         </div>
     </div>
     <script src="app.js"></script>
