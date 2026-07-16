@@ -152,7 +152,12 @@
     background: #fafafa;
 }
 
-.inside-graph {
+.graph-box{
+    height:300px;
     width: 100%;
-    display: block;
+}
+
+#currencyChart{
+    width:100%;
+    height:100%;
 }

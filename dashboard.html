@@ -8,7 +8,7 @@
 </head>
 <body id="dash-body">
     <div class="dash-main">
-        <h3 class="dash-heading">CC </h3>
+        <h3 class="dash-heading">CURRENCY CONVERTER </h3>
 
         <p class="dash-enter">enter the value</p>
         <input class="dash-amount" placeholder="Amount">
@@ -19,8 +19,6 @@
                 <div class="flag">
                     <img src="https://flagsapi.com/US/flat/64.png">
                     <select class="from-name" name="from-country">
-                        <option value="usd">usd</option>
-                        <option value="india">india</option>
                     </select>
                 </div>
             </div>
@@ -30,9 +28,7 @@
                 <div class="flag">
                     <img src="https://flagsapi.com/IN/flat/64.png">
                     <select class="to-name" name="to-country">
-                        <option value="mumbai">mumbai</option>
-                        <option value="india">india</option>
-                 </select>
+                    </select>
                 </div>
             </div>
         </div>
@@ -40,13 +36,9 @@
         <div class="conversion">
             <p class="dash-convo">After Conversion</p>
             <p class="dash-value">the value of the conversion is </p>
-        </div>.
-        <div class="graph">
-            <div class="graph-box">
-                <canvas class="inside-graph"></canvas>
-            </div>
         </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="code.js"></script>
     <script src="app.js"></script>
 </body>
